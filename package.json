@@ -1,0 +1,21 @@
+{
+  "name": "metalsmith-gitlab-markdown",
+  "description": "A Metalsmith plugin to convert markdown files using Gitlab markdown API",
+  "repository": "https://github.com/pariviere/metalsmith-gitlab-markdown.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "~0.7.4",
+    "metalsmith-plugin-kit": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "metalsmith": "0.x",
+    "assert-dir-equal": "0.x"
+  }
+}
